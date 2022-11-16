@@ -1,2 +1,8 @@
 # Bagger
-A World of Warcraft AddOn which works in both Classic and retail to automate the opening and closing of a character's bags in a number of helpful situations.
+A World of Warcraft AddOn which works in both Classic and retail to open all of a character's bags for player trades (Classic)*, as well as the Bank, Guild Bank, Auction House (Classic), Mailbox (Classic), merchants (Classic), and for gear upgrades, then closes the bags when the main task window is closed. Bagger was inspired by a defunct AddOn called bags_and_merchants by Elkano which existed several years ago. Blizzard negated the need for the primary functions of bags_and_merchants a few expansions ago when they built the feature to open all of a character's bags when interacting with the vendors in World of Warcraft. The retail World of Warcraft: Dragonflight game client has even superseded many of the functions of Bagger, but this AddOn is still useful for Bank, Guild Bank, and item upgrade interactions in WoW retail. This AddOn is meant for those who use the original bag UI provided by World of Warcraft and who prefer to manually manage their inventory.
+
+Note: World of Warcraft: Dragonflight seems to create a crippling taint when the OpenBag() set of functions are called, which makes Bagger pretty much unusable in Dragonflight. I am providing Bagger v.10.0.1 as is for retail and classic. Bagger can be used in retail, provided you are willing to do a frequent /reload of the UI. As such, Bagger should be considered mostly as a Classic AddOn for the time being. Bagger v.10.0.1 includes the automatic bypassing of the extra dialog in World of Warcraft: Classic which occurs when interacting with the occasional bank NPC, or merchant NPC.
+
+This AddOn does not modify the bags, keep up with inventory, or automate equipment management in any way.
+
+* Features denoted by "(Classic)" are built into retail and no longer require Bagger to perform them.
